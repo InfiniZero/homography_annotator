@@ -17,7 +17,7 @@ This repo holds the code of a simple homography annotator for sports field regis
 python homography_annotator.py
 ```
 
-2. Users need to click the image with the mouse to determine the **4 corresponding point-pairs** (8 points), including 4 points in the broadcast image and another 4 points in the template image. Different point-pair has the different color, as shown in the following figure:
+2. Users need to click the image with the mouse to determine the **4 corresponding point-pairs** (8 points), including 4 points in the broadcast image and another 4 points in the template image (bottom-left). Different point-pair has the different color, as shown in the following figure:
 
 ![Figure1](./pics/figure1.png)
 

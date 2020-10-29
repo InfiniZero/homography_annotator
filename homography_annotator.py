@@ -27,7 +27,7 @@ class MyLabel(QLabel):
         self.point_num = 0
         self.point_list = []
 
-    def mousePressEvent(self, e):    # 单击
+    def mousePressEvent(self, e):
         x = e.x()
         y = e.y()
         if self.point_num == 0:
@@ -227,7 +227,7 @@ if __name__ == '__main__':
     img_dir = sys.path[0] + '/dataset/img/'
     H_mat_dir = sys.path[0] + '/dataset/H_mat/'
     template_file = sys.path[0] + '/dataset/field_nba_new.jpg'
-    scale_factor = 0.8
+    scale_factor = 0.8 # this is a scale_factor for better visualization
     QApplication.setAttribute(Qt.AA_EnableHighDpiScaling)
     app = QApplication(sys.argv)
     window = window(img_dir, H_mat_dir, template_file, scale_factor)
